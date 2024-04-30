@@ -1,0 +1,16 @@
+//COMPILE SASS
+// sass --watch wp-content/themes/bru/assets/css/sass/main.scss:wp-content/themes/bru/assets/css/style.min.css --style compressed
+
+// Configuration and helpers
+@import
+  'abstracts/variables';
+
+// Base stuff
+@import
+  'base/fonts';
+
+//PAGES
+@import
+  'pages/navbar',
+  'pages/members',
+  'pages/single-blog';

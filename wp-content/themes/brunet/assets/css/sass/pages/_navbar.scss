@@ -1,0 +1,64 @@
+#top-nav {
+  padding: 15px 0px;
+  .top-navbar {
+    .logo {
+      display: flex;
+      align-items:center;
+      a {
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        span {
+          display: block;
+          &.brunet {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 18px;
+          }
+          &.line {
+            margin-top: 7px;
+            border-top: 2px solid #000;
+          }
+          &.rs {
+            font-size: 10.5px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .menunav {
+      display: flex;
+      align-items:center;
+      ul {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        gap: 10px;
+        li {
+          appearance: none;
+          margin: 0;
+          background-color: transparent;
+          padding: 5px 8px;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: all .3s;
+          a {
+            font-family: $font-family-montserrat;
+            color: black;
+            text-decoration: none;
+          }
+          &:hover {
+            background-color: blue;
+            a {
+              color: #fff;
+            }
+          }
+          &::marker {
+            content: '';
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+#single-blog {
+  .hero {
+    padding: 180px 0px;
+    background-position: center;
+    background-size: cover;
+    h1 {
+      font-family: $font-family-montserrat;
+      font-size: 48px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+
+  .principal-content {
+    padding: 60px 0;
+  }
+}
